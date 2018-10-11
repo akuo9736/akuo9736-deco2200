@@ -41,26 +41,45 @@
         </div>
       </nav>
       <!-- Navbar End -->
-      <!-- Modal centered -->
-      <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
+      <div class="container mb-5" id="modals">
+        <h1 class="text-center">Modals</h1>
+
+        <section class="row">
+          <article class="col">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+              Open Modal
+            </button>
+
+            <!-- Modal centered -->
+            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+                  </div>
+                  <div class="modal-body">
+                    This is the body of the modal.
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Got it!</button>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="modal-body">
-              This is the body of the modal.
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Got it!</button>
-            </div>
-          </div>
-        </div>
+
+          </article>
+
+        </section>
+        <!-- end of row -->
+
       </div>
+
+      <!-- end of modal container -->
 
 <!-- carouse -->
       <div class="container">
